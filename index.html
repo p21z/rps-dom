@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
     <title>Document</title>
 </head>
 <body>
+
+    <div class="header">
+        <ul>
+            <li>ROCK</li>
+            <li>PAPER</li>
+            <li>SCISSORS</li>
+        </ul>
+        <span class="shoot">SHOOT!</span>
+    </div>
+
+    <div class="content">
+
+        <div class="scoreboard">
+            <div class="score1">
+                <span id="playerScoreView">0</span><span class ="label1">Player</span>
+            </div>
+            <div class="semicolon">:</div>
+            <div class="score1">
+                <span id="compScoreView">0</span><span class ="label2">Computer</span>
+            </div>
+        </div>
+
+        <div class="result">
+
+        </div>
+
+        <div class="button-group">
+            <button data-attribute="paper" id="notebutton">
+                <span data-attribute="paper" class="material-icons">
+                    note
+                </span>
+            </button>
+            <button data-attribute="scissors" id="cutbutton">
+                <span data-attribute="scissors" class="material-icons">
+                    content_cut
+                </span>
+            </button>
+            <button data-attribute="rock" id="eggbutton">
+                <span data-attribute="scissors" class="material-icons">
+                    egg
+                </span>
+            </button>
+        </div>
+
+    </div>
     
 </body>
 

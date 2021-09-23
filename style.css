@@ -1,0 +1,129 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0;
+    background-color: #EACDC2;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: space-between;
+    width: 20%;
+    margin: 0 auto;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+.header {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #1A1423;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.shoot {
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 3% auto 1% auto;
+}
+
+button {
+     border-radius: 50%;
+     color: aliceblue;
+     padding: 2vw 3vw;
+}
+
+#notebutton {
+    background-color: #372549;
+    border: #372549 1px solid;
+}
+
+#notebutton:hover {
+    background-color: #fff;
+    border: #372549 3px solid;
+    color: #372549;
+}
+
+#cutbutton {
+    background-color: #774C60;
+    border: #774C60 1px solid;
+}
+
+#cutbutton:hover {
+    background-color: #fff;
+    border: #774C60 3px solid;
+    color: #774C60;
+}
+
+#eggbutton {
+    background-color: #B75D69;
+    border: #B75D69 1px solid;
+}
+
+#eggbutton:hover {
+    background-color: #fff;
+    border: #B75D69 3px solid;
+    color: #B75D69;
+}
+
+.scoreboard {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3vw;
+    color: #1A1423;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.score1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* border: aqua 1px solid; */
+}
+
+.semicolon {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+right: 0;
+text-align: center;
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.result {
+    margin-top: 3vw;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: bolder;
+    font-size: 4vw;
+    color: #1A1423;
+    text-align: center;
+    min-height: 7vw;
+}
+
+#playerScoreView {
+    font-weight: bolder;
+}
+
+#compScoreView {
+    font-weight: bolder;
+}

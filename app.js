@@ -83,6 +83,9 @@ display = () =>
     resultView = document.querySelector('.result');
     resultView.innerHTML = result.toUpperCase();
 
+    movesView = document.querySelector('.moves');
+    movesView.innerHTML = `You chose ${playerChoice}. Computer chose ${computerChoice}.`
+
 }
 
 game = (e) =>

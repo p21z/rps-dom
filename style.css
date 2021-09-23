@@ -111,13 +111,23 @@ text-align: center;
 }
 
 .result {
-    margin-top: 3vw;
+    margin-top: -1vw;
     font-family: 'Luckiest Guy', cursive;
     font-weight: bolder;
     font-size: 4vw;
     color: #1A1423;
     text-align: center;
-    min-height: 7vw;
+    /* min-height: 3vw; */
+}
+
+.moves {
+    margin-top: 3vw;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    color: #1A1423;
+    text-align: center;
+    /* min-height: 3vw; */
 }
 
 #playerScoreView {
@@ -126,4 +136,9 @@ text-align: center;
 
 #compScoreView {
     font-weight: bolder;
+}
+
+.show {
+    min-height: 10vw;
+    border: #EACDC2 1px solid;
 }
